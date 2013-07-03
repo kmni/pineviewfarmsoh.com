@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www.pineviewfarmsoh.com$
+RewriteRule ^(.*)$ http://www.pineviewfarmsoh.com [R=301,L]
+
+ErrorDocument 404 /404.html

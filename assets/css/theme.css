@@ -1,0 +1,169 @@
+/***************************************************************************
+ * @Author: NetChillies - PepUp The Web!
+ * @Website: http://www.netchillies.com/
+ * @Contact: http://www.netchillies.com/contact
+ * @Privacy Policy & Terms of Use: http://www.netchillies.com/terms
+ * @License Info: http://www.netchillies.com/license
+ ***************************************************************************/
+body{
+    font: normal 14pt "Verdana";
+    background: #3a1414;
+}
+#outer-wrapper{
+    width: 960px;
+    min-height: 1244px;
+    margin: 0 auto;
+    background: url(../images/main-bg.jpg) repeat-y;
+}
+#inner-wrapper{
+    width: 900px;
+    min-height: 1244px;
+    background-image: url(../images/inner-wrapper-bg1.png), url(../images/inner-wrapper-bg2.png);
+    background-repeat:no-repeat, repeat-y;
+    background-position:top left, -12px 0px;
+    background-color:#fffef4;
+    margin: 0 auto;
+	display: table;
+    overflow: visible !important;
+}
+#left-content{
+    width: 303px;
+    min-height: 1244px;
+}
+#logo{
+    width: 303px;
+    margin: 18px 0px 0px 78px;
+}
+#nav{
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'MoolBoranRegular';
+    font-size: 30px;
+    font-weight: normal;
+    height: 180px;
+    
+}
+#nav a{
+    color: #fff;
+	text-shadow: 2px 2px 3px #000000;	
+}
+#nav ul{
+    background:url(../images/transparent.png) repeat-y center;
+}
+#nav ul li{
+    list-style: none;
+}
+.topborder{
+    background:url(../images/border.png) no-repeat top center !important;
+    padding-top:20px;
+}
+.pad10top{
+    margin:10px 0;
+}
+.border-bottom{
+    background:url(../images/border.png) no-repeat center !important;
+    display: block;
+    position: relative;
+    top:-30px;
+}
+#link-blocks{
+    width: 303px;
+    margin-top: 50px;
+    text-align: center;
+}
+#link-blocks-two{
+    width: 303px;
+    text-align: center;
+}
+#link-blocks-three{
+    width: 303px;
+    text-align: center;
+}
+#link-blocks p{
+    font-family: 'AppleGaramondLightItalic';
+    color: #567453;
+    font-size: 18px;
+    position: relative;
+    top: -20px;
+}
+#image{
+    width: 303px;
+}
+.title{
+    font-family: 'AmazeNormal';
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    top: -50px;
+	text-shadow: 2px 2px 3px #000000;
+}
+#right-content{
+    width: 560px;
+    min-height: 700px;
+}
+#welcome{
+    height: 90px;
+    padding: 35px;
+}
+#content-image{
+    height: 206px;
+    position: relative;
+}
+#content{
+    width: 500px;
+    color: #333;
+    padding: 30px;
+}
+#content span{
+	color:#074209;
+	font-weight:bold;
+}
+#content a{
+	color:#600;
+	font-weight:bold;
+}
+#content p{
+    font-size: 14px;
+}
+.uppercase{
+    text-transform: uppercase;
+    color: #074209;
+    font-size: 48px;
+    font-family: Georgia;
+    font-weight: normal;
+    padding: 5px;
+}
+.male{
+	background-color:#CCC;
+}
+.female{
+	background-color:#999;
+}
+#horselistings{
+	text-align:center;
+}
+#horse-listings img{
+	border:solid 5px white;
+	margin-bottom:10px;
+	outline:1px solid #CCC;
+}
+#horse-listings hr{border: 3px outset #3A1414;}
+#horse-listings p{text-align:center;}
+.picfront {
+	position: absolute;
+	top: 195px;
+	left: 195px;
+}
+.picleft {
+	position: absolute;
+	top: 195px;
+	left: 3px;
+}
+.picback {
+	position: relative; 
+}
+.noborder{border:0!important;}
+.sponsors img{border:solid 1px #000;display:block;margin:10px auto;}
+.border{border:solid 2px #060;}
+.footer{color:#FFF; font-size:10pt;;text-align:center;margin:10px 0;}
+.footer a{color:#3f7261;font-weight:bold;}
